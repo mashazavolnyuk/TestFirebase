@@ -10,8 +10,16 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.aquarium.mashazavolnyuk.testfirebase.MainActivity">
 
-    <ImageView
+    <Button
         android:id="@+id/imgImageLoad"
+        android:text="load card"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimary"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"></LinearLayout>
 </RelativeLayout>

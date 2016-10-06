@@ -12,10 +12,29 @@ import java.util.List;
  */
 
 public class CardImage {
+
     private int id;
     private String name;
     private String imgUrl;
     private List<String> imageUrls;
+
+    public String getName() {
+        return name;
+    }
+
+    public String getImgUrl() {
+        return imgUrl;
+    }
+
+    public List<String> getImageUrls() {
+        return imageUrls;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+
 
     public CardImage(int id, String name, String imgUrl) {
         this.id=id;
